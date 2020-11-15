@@ -11,6 +11,9 @@ public class Pais {
     @Column
     private String nombre;
 
+    public Pais() {
+    }
+
     public Pais(String nombre) {
         this.nombre = nombre;
     }

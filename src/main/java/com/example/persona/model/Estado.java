@@ -15,6 +15,9 @@ public class Estado {
     @Column
     private String nombre;
 
+    public Estado() {
+    }
+
     public Estado(Pais pais, String nombre) {
         this.pais = pais;
         this.nombre = nombre;
